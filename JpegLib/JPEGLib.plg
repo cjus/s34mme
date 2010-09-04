@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: JPEGLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "c:\windows\TEMP\RSP3053.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/JPEGLib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\Section34\Dev\Core\S34Image\JpegLib\Jdapimin.c"
+]
+Creating command line "cl.exe @c:\windows\TEMP\RSP3053.TMP" 
+Creating temporary file "c:\windows\TEMP\RSP3054.TMP" with contents
+[
+/nologo /out:"Debug\JPEGLib.lib" 
+.\Debug\Jcapimin.obj
+.\Debug\Jquant2.obj
+.\Debug\Jquant1.obj
+.\Debug\Jpegtran.obj
+.\Debug\Jmemnobs.obj
+.\Debug\Jmemmgr.obj
+.\Debug\Jidctred.obj
+.\Debug\Jidctint.obj
+.\Debug\Jidctfst.obj
+.\Debug\Jidctflt.obj
+.\Debug\Jfdctint.obj
+.\Debug\Jfdctfst.obj
+.\Debug\Jfdctflt.obj
+.\Debug\Jerror.obj
+.\Debug\Jdtrans.obj
+.\Debug\Jdsample.obj
+.\Debug\Jdpostct.obj
+.\Debug\Jdphuff.obj
+.\Debug\Jdmerge.obj
+.\Debug\Jdmaster.obj
+.\Debug\Jdmarker.obj
+.\Debug\Jdmainct.obj
+.\Debug\Jdinput.obj
+.\Debug\Jdhuff.obj
+.\Debug\Jddctmgr.obj
+.\Debug\Jdcolor.obj
+.\Debug\Jdcoefct.obj
+.\Debug\Jdatasrc.obj
+.\Debug\Jdatadst.obj
+.\Debug\Jdapistd.obj
+.\Debug\Jdapimin.obj
+.\Debug\Jctrans.obj
+.\Debug\Jcsample.obj
+.\Debug\Jcprepct.obj
+.\Debug\Jcphuff.obj
+.\Debug\Jcparam.obj
+.\Debug\Jcomapi.obj
+.\Debug\Jcmaster.obj
+.\Debug\Jcmarker.obj
+.\Debug\Jcmainct.obj
+.\Debug\Jcinit.obj
+.\Debug\Jchuff.obj
+.\Debug\Jcdctmgr.obj
+.\Debug\Jccolor.obj
+.\Debug\Jccoefct.obj
+.\Debug\Jcapistd.obj
+.\Debug\Jutils.obj
+]
+Creating command line "link.exe -lib @c:\windows\TEMP\RSP3054.TMP"
+<h3>Output Window</h3>
+Compiling...
+Jdapimin.c
+Creating library...
+Creating temporary file "c:\windows\TEMP\RSP3070.BAT" with contents
+[
+@echo off
+copy .\debug\JPEGLib.lib ..
+]
+Creating command line "c:\windows\TEMP\RSP3070.BAT"
+
+        1 file(s) copied
+
+
+
+<h3>Results</h3>
+JPEGLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
